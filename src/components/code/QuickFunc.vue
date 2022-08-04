@@ -2,7 +2,7 @@
 	<!-- Form -->
 	<form
 		action=""
-		class="bg-red-100 p-2 flex items-center justify-evenly space-x-4"
+		class="p-2 flex items-center justify-evenly space-x-4"
 		@submit.prevent="handleCompute()"
 	>
 		<!-- Methods -->
@@ -33,7 +33,7 @@
 			class="bg-white px-2 rounded self-end"
 		/>
 	</form>
-	<div id="output">
+	<div id="output" class="p-2">
 		<p class="text-black">Output</p>
 		<p class="font-mono text-xs my-5">{{ result }}</p>
 	</div>

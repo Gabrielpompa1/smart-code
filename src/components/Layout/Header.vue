@@ -5,15 +5,15 @@
 				{smartCode}
 			</h1>
 		</div>
-		<Navbar />
+		<!-- <Navbar /> -->
 	</header>
 </template>
 
 <script>
-import Navbar from './Navbar.vue';
+// import Navbar from './Sidebar.vue';
 export default {
 	components: {
-		Navbar,
+		// Navbar,
 	},
 };
 </script>
